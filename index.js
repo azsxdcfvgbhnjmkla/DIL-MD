@@ -98,3 +98,16 @@ client.on('message.upsert', async (m) => {
     await client.sendMessage(msg.key.remoteJid, { text: 'Here is the help menu...' });
   }
 });
+
+// index.js
+client.on('message.upsert', async (m) => {
+  const msg = m.messages[0];
+  if (!msg.message) return;
+  if (msg.key.fromMe) return;
+
+  const text = msg.message.conversation || msg.message.extendedTextMessage?.text || '';
+
+  if (text.toLowerCase() === 'ping') {
+    await client.sendMessage(msg.key.remoteJid, { text: 'pong' });
+  }
+});
