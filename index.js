@@ -83,3 +83,18 @@ client.on('message.upsert', async (m) => {
 
   autoread(client, msg);
 });
+client.on('message.upsert', async (m) => {
+  const msg = m.messages[0];
+  if (!msg.message) return;
+  if (msg.key.fromMe) return;
+
+  const text = msg.message.conversation || msg.message.extendedTextMessage?.text || '';
+
+  if (text.toLowerCase() === 'hello') {
+    await client.sendMessage(msg.key.remoteJid, { text: 'Hi there!' });
+  }
+
+  if (text.toLowerCase() === 'help') {
+    await client.sendMessage(msg.key.remoteJid, { text: 'Here is the help menu...' });
+  }
+});
