@@ -1,1 +1,16 @@
-
+{
+  "name": "your-app-name",
+  "version": "1.0.0",
+  "description": "WhatsApp bot project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=14.x"
+  },
+  "dependencies": {
+    "baileys": "^4.0.0",
+    "dotenv": "^16.0.0"
+  }
+}
