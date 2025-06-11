@@ -1,0 +1,17 @@
+{
+  "name": "dil-md-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp bot powered by Baileys MD using session ID",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.0",
+    "fs-extra": "^11.1.1",
+    "dotenv": "^16.3.1"
+  },
+  "author": "DIL MD",
+  "license": "MIT"
+}
+
