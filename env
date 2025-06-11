@@ -1,1 +1,31 @@
+SESSION_ID="your-session-id"
+BOT_NAME="𝐃𝚰𝐋 𝚳𝐃"
+OWNER_NAME="𝐃𝚰𝐋 𝚳𝐃"
+BOT_OWNER="𝐃𝚰𝐋 𝚳𝐃"
+OWNER_NUMBER="+255699155695"
+NUMERO_OWNER="+255699155695"
+MODE="public"
+PUBLIC_MODE="yes"
 
+PREFIX="."
+AUTO_READ_STATUS="yes"
+AUTO_DOWNLOAD_STATUS="yes"
+AUTO_REACT="true"
+AUTO_TYPING="false"
+AUTO_RECORD="false"
+
+STARTING_BOT_MESSAGE="yes"
+ANTI_DELETE_MESSAGE="yes"
+WARN_COUNT="3"
+
+IMAGE_MENU="https://files.catbox.moe/qef0o9.jpg"
+DATABASE_URL=""
+OPENAI_API_KEY=""
+
+TYPING="composing"
+RECORDING="recording"
+ONLINE="available"
+REACTION_EMOJIS="🥰,☺️,😘,❤️,💖,🩶,🖤,🩵,😍"
+
+LANGUAGE="en"
+GITHUB_GIT="https://apis.ibrahimadams.us.kg"
